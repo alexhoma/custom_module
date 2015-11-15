@@ -87,7 +87,7 @@ class custom_module {
       owner => 'root',
       group => 'root',
       replace => 'true',
-      content => "<h1>Hello, I'm centos.dev</h1>"
+      content => "<h1>Hello, I'm centos.dev</h1>",
       mode   => "0644"
     }
     file {'/var/www/project1/index.php':

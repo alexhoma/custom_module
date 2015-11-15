@@ -83,7 +83,7 @@ class custom_module {
 
     ### INDEX.PHP ADDITIONS
     file {'/var/www/index.php':
-      ensure => file,
+      ensure => 'file',
       owner => 'root',
       group => 'root',
       replace => 'true',
@@ -91,7 +91,7 @@ class custom_module {
       source => 'puppet:///modules/my_module/content.txt'
     }
     file {'/var/www/project1/index.php':
-      ensure => file,
+      ensure => 'present',
       owner => 'root',
       group => 'root',
       replace => 'true',

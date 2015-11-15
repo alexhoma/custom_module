@@ -83,19 +83,19 @@ class custom_module {
 
     ### INDEX.PHP ADDITIONS
     file {'/var/www/index.php':
-      ensure => 'file',
+      ensure => 'present',
       owner => 'root',
       group => 'root',
       replace => 'true',
-      mode   => "0644",
-      source => 'puppet:///modules/my_module/content.txt'
+      content => "<h1>Hello, I'm centos.dev</h1>"
+      mode   => "0644"
     }
     file {'/var/www/project1/index.php':
       ensure => 'present',
       owner => 'root',
       group => 'root',
       replace => 'true',
-      mode   => "0644",
-      source => 'puppet:///modules/my_module/content2.txt'
+      content => "<h1>Hello, I'm project1.dev</h1>",
+      mode   => "0644"
     }
 }

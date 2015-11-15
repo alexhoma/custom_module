@@ -1,4 +1,4 @@
-name    'alexhoma-custom_module'
+name    'custom_module'
 version '0.1.0'
 source 'UNKNOWN'
 author 'alexhoma'

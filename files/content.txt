@@ -1,0 +1,9 @@
+<!doctype>
+<html>
+  <head>
+    <title> Welcome to centos.dev! </title>
+  </head>
+  <body>
+    <h1> <?php echo 'It Works!'; ?> </h1>
+  </body>
+</html>

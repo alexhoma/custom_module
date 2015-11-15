@@ -1,0 +1,9 @@
+<!doctype>
+<html>
+  <head>
+    <title> Welcome to project1.dev! </title>
+  </head>
+  <body>
+    <h1> <?php echo 'Project 1 developing environment'; ?> </h1>
+  </body>
+</html>

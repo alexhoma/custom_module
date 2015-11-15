@@ -87,6 +87,7 @@ class custom_module {
       owner => 'root',
       group => 'root',
       replace => 'true',
+      mode   => "0644"
       source => 'puppet:///modules/my_module/content.txt'
     }
     file {'/var/www/project1/index.php':
@@ -94,8 +95,7 @@ class custom_module {
       owner => 'root',
       group => 'root',
       replace => 'true',
+      mode   => "0644"
       source => 'puppet:///modules/my_module/content2.txt'
     }
-
-
 }

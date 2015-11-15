@@ -1,7 +1,7 @@
 # == custom_module == #
 # Modulo para provisionar nuestro centOS-65
 # + Para añadir index.php a nuestros virtualhosts
-==============================================
+# ==============================================
 
 class custom_module {
     ### HOSTS
